@@ -1,0 +1,54 @@
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2016. Dmytro Karataiev
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  ~
+  -->
+
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Morse Flashlight</string>
+    <string name="flashlight_switch">切换</string>
+    <string name="flashlight_status_on">开始</string>
+    <string name="flashlight_status_off">停止</string>
+    <string name="flashlight_status_blink">闪烁模式</string>
+
+    <!-- Preferences screen -->
+    <string name="preferences">设置</string>
+    <string name="pref_orientation">锁定屏幕方向</string>
+    <string name="pref_orientation_portrait">仅竖屏</string>
+    <string name="pref_orientation_portrait_off">自动旋转</string>
+    <string name="title_activity_license">许可证</string>
+
+    <!-- Morse code screen -->
+    <string name="morse_code_textfield">输入信息: </string>
+    <string name="morse_expl">\n1. 点(dot)的长度为1个单位； \n2. 划(dash)的长度为3个单位； \n3. 字母内点划间隔为1个单位；
+    \n4. 字母之间间隔为3个单位； \n5. 单词之间间隔为7个单位。 \n\n*This is a test version made by GZY*</string>
+    <string name="morse_message_title">电码:</string>
+    <string name="morse_speed">单位: <xliff:g id="speed">%1$d</xliff:g> ms</string>
+
+    <!-- Pager titles -->
+    <string name="morse_screen">摩斯电码</string>
+    <string name="flashlight_screen">手电</string>
+    <string name="emergency_screen">紧急信号</string>
+    <string name="speed_increase">加速</string>
+    <string name="speed_decrease">减速</string>
+
+</resources>

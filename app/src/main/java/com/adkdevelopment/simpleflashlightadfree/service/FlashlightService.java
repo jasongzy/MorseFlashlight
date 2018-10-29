@@ -66,7 +66,7 @@ public class FlashlightService extends Service {
     private String morseCode = "";
 
     // morse variables
-    public static int dot = 150;
+    public static int dot = 1000;
     private final int dash = 3;
     private final int space = 7;
     public static final int INCREASE = 1;

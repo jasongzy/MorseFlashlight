@@ -24,7 +24,7 @@
   -->
 
 <resources xmlns:xliff="http://schemas.android.com/tools">
-    <string name="app_name">Simple Flashlight</string>
+    <string name="app_name">Morse Flashlight</string>
     <string name="flashlight_switch">Toggle</string>
     <string name="flashlight_status_on">Turn on</string>
     <string name="flashlight_status_off">Turn off</string>
@@ -50,5 +50,6 @@
     <string name="emergency_screen">Emergency signal</string>
     <string name="speed_increase">Increase speed</string>
     <string name="speed_decrease">Speed decrease</string>
+    <string name="title_activity_license">License</string>
 
 </resources>

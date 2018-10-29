@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String PAGER = "Pager_Current";
     public static final String MAIN_FRAG = "my_main";
-    public static int current_fragment = 1;
+    public static int current_fragment = 0;
     private PagerFragment pagerFragment;
 
     @Override
