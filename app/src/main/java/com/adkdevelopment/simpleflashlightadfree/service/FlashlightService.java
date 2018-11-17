@@ -241,7 +241,8 @@ public class FlashlightService extends Service {
 
                             try {
                                 manager.setTorchMode(flashCameraId, false);
-                                while (true) {
+//                                while (true) {
+                                Thread.sleep(5000);
                                     for (int i = 0, n = morseCode.length(); i < n; i++) {
                                         if (morseCode.charAt(i) == ' ') {
                                             manager.setTorchMode(flashCameraId, false);
@@ -258,9 +259,9 @@ public class FlashlightService extends Service {
                                             }
                                         }
 
-                                        Thread.sleep(dot * dash);
-                                    }
-                                    Thread.sleep(dot * space);
+                                        Thread.sleep(dot * (dash - 1));
+//                                    }
+//                                    Thread.sleep(dot * space);
                                 }
                             } catch (InterruptedException e) {
                                 Log.e(LOG_TAG, "Interrupted " + e);
@@ -325,7 +326,8 @@ public class FlashlightService extends Service {
                             camera.startPreview();
 
                             try {
-                                while (true) {
+//                                while (true) {
+                                Thread.sleep(5000);
                                     for (int i = 0, n = morseCode.length(); i < n; i++) {
                                         if (morseCode.charAt(i) == ' ') {
                                             parameters.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
@@ -344,9 +346,9 @@ public class FlashlightService extends Service {
                                                 }
                                             }
                                         }
-                                        Thread.sleep(dot * dash);
-                                    }
-                                    Thread.sleep(dot * space);
+                                        Thread.sleep(dot * (dash - 1));
+//                                    }
+//                                    Thread.sleep(dot * space);
                                 }
                             } catch (InterruptedException e) {
                                 Log.e(LOG_TAG, "Interrupted " + e);

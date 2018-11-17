@@ -44,7 +44,7 @@ android {
         applicationId "com.adkdevelopment.simpleflashlightadfree"
         minSdkVersion 16
         targetSdkVersion 25
-        versionCode 1
+        versionCode 99
         versionName "1.0"
     }
     buildTypes {
